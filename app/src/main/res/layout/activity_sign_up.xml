@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="healthtotal.example.com.healthtotal.SignUpActivity"
+    android:background="@drawable/loginbackgroundlight">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Name"
+            android:textColor="#000000"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            >
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/et_fname"
+            android:hint="First Name"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/et_lname"
+                android:textColor="#000000"
+                android:hint="Last Name"
+                android:layout_weight="1"
+                android:textSize="17dp"
+                />
+        </LinearLayout>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:text="Choose your User Email Id"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/et_emailid"
+            android:textColor="#000000"
+            android:inputType="textEmailAddress"
+            android:textSize="17dp"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:text="Create a password"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/et_password"
+            android:textColor="#000000"
+            android:inputType="textPassword"
+            android:textSize="17dp"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Confirm your password"
+            android:textColor="#000000"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:id="@+id/et_confirmPass"
+            android:inputType="textPassword"
+            android:textSize="17dp"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Phone Number"
+            android:textColor="#000000"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/et_phoneNum"
+            android:ems="10"
+            android:textColor="#000000"
+            android:inputType="phone"
+            android:textSize="17dp"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Address"
+            android:textColor="#000000"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/et_address"
+        android:ems="10"
+        android:textColor="#000000"
+        android:inputType="textLongMessage"
+        android:textSize="17dp"
+        />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Age"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/et_age"
+            android:ems="10"
+            android:textColor="#000000"
+            android:inputType="number"
+            android:textSize="17dp"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Blood Group"
+            android:textColor="#000000"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/et_bloodgrp"
+            android:ems="10"
+            android:textColor="#000000"
+            android:inputType="text"
+            android:textSize="17dp"
+            />
+    </LinearLayout>
+</ScrollView>
+        <Button
+            android:id="@+id/btn_sign_up"
+            style="?android:textAppearanceSmall"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:text="SIGN UP"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:background="@android:color/darker_gray"
+            android:layout_gravity="right" />
+
+
+
+</LinearLayout>
